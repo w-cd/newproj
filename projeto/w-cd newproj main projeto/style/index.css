@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/631/777/original/black-triangular-modern-background-free-vector.jpg);
+    background-color: rgb(0, 0, 0);
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url(https://t4.ftcdn.net/jpg/03/55/83/33/360_F_355833357_NayQN0HNYUkLSp93ALuts9BFjHZ1KT2X.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-color: rgb(255, 136, 0);
+    height: 200px;
+    padding: 0;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+
+img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+section {
+    background-color: rgb(31, 31, 31);
+    border: 3px solid black;
+}
+
+section > li {
+    border: 3px solid black;
+}
+
+.java {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jv {
+    width: 15%;
+    margin: 1% 5% 2%;
+    text-align: center;
+    border: 3px solid black;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 2px 2ox black, 6px 5px 6px rgb(255, 145, 0);
+}
+
+ul li {
+    display: inline-block;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    text-align: center;
+}
